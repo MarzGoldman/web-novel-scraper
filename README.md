@@ -72,6 +72,14 @@ Run the following command to scrape your web novel:
 python novel_scraper.py "https://url-of-starting-chapter/" --output-markdown "outputfile-name.md"
 ```
 
+```sh
+python novel_scraper.py "https://url-of-starting-chapter/" --output-json "outputfile-name.json"
+```
+
+```sh
+python novel_scraper.py "https://url-of-starting-chapter/" --output-epub "outputfile-name.epub"
+```
+
 And voila! Watch as chapters are magically scraped and transformed into Markdown. 🪄
 
 ### Arguments (a.k.a. Spells)
